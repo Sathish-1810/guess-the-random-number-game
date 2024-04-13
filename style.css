@@ -1,0 +1,89 @@
+.bg-container{
+    background-image: url("https://img.freepik.com/premium-photo/celestial-dance-solar-eclipse-reflects-water_822108-28356.jpg?w=1060");
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image{
+    width: 50vh;
+    height: 80%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adding shadow */
+    
+  
+
+}
+.gamedescription{+
+    text-align:left;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    text-align:left;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row1{
+    background-image: url("https://img.freepik.com/premium-photo/abstract-illustration-with-colorful-microcosm_763713-4731.jpg?w=1060");
+    height: 33vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-size: cover;
+}
+.heading{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.guess-field{
+    text-align: center;
+    padding: 2%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color:rgba(7, 8, 7, 0.708);
+    font-size: 25px;
+    font-weight: bold;
+}
+.container2{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.button1{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.buttonstyle{
+padding: 10px;
+margin: 15px;
+background-color: rgb(158, 136, 136);
+border: none;
+border-radius: 5px;
+font: 10px;
+font-weight: bold;
+}
+.buttonstyle:hover{
+    background-color: brown;
+    transition:0.2s;
+}
+.guess-result{
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+ 
+    
+}
